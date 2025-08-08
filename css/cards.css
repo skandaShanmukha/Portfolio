@@ -1,0 +1,380 @@
+/* 
+   Card Component Styles
+   =====================
+   Styling for all card components including skills, projects, books, heroes, etc.
+*/
+
+/* ===========================================
+   BASE CARD STYLES
+   =========================================== */
+
+.card {
+  background-color: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--card-radius);
+  padding: var(--card-padding);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-normal);
+  position: relative;
+  overflow: hidden;
+}
+
+.card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-2px);
+  border-color: var(--accent-primary);
+}
+
+/* ===========================================
+   SKILL CARDS
+   =========================================== */
+
+.skill-card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.skill-icon {
+  width: 64px;
+  height: 64px;
+  background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--text-2xl);
+  margin-bottom: var(--space-2);
+}
+
+.skill-title {
+  font-size: var(--text-xl);
+  font-weight: var(--font-semibold);
+  color: var(--text-primary);
+  margin-bottom: var(--space-2);
+}
+
+.skill-description {
+  color: var(--text-secondary);
+  line-height: var(--leading-relaxed);
+  margin-bottom: var(--space-4);
+}
+
+.skill-level {
+  width: 100%;
+}
+
+.skill-level-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--space-2);
+  font-size: var(--text-sm);
+  font-weight: var(--font-medium);
+}
+
+.skill-level-bar {
+  width: 100%;
+  height: 8px;
+  background-color: var(--bg-tertiary);
+  border-radius: var(--radius-full);
+  overflow: hidden;
+}
+
+.skill-level-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary));
+  border-radius: var(--radius-full);
+  transition: width 1.5s ease-out;
+}
+
+/* ===========================================
+   PROJECT CARDS
+   =========================================== */
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.project-image {
+  height: 200px;
+  background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--text-4xl);
+  color: white;
+  margin-bottom: var(--space-4);
+}
+
+.project-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-title {
+  font-size: var(--text-xl);
+  font-weight: var(--font-semibold);
+  color: var(--text-primary);
+  margin-bottom: var(--space-3);
+}
+
+.project-description {
+  color: var(--text-secondary);
+  line-height: var(--leading-relaxed);
+  margin-bottom: var(--space-4);
+  flex: 1;
+}
+
+.project-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-bottom: var(--space-4);
+}
+
+.tech-tag {
+  padding: var(--space-1) var(--space-3);
+  background-color: var(--bg-tertiary);
+  color: var(--text-secondary);
+  border-radius: var(--radius-full);
+  font-size: var(--text-sm);
+  font-weight: var(--font-medium);
+  border: 1px solid var(--border-color);
+}
+
+.project-links {
+  display: flex;
+  gap: var(--space-3);
+  margin-top: auto;
+}
+
+.project-link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-4);
+  background-color: var(--accent-primary);
+  color: white;
+  text-decoration: none;
+  border-radius: var(--radius-md);
+  font-size: var(--text-sm);
+  font-weight: var(--font-medium);
+  transition: all var(--transition-fast);
+}
+
+.project-link:hover {
+  background-color: var(--accent-secondary);
+  color: white;
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+.project-link.secondary {
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+}
+
+.project-link.secondary:hover {
+  background-color: var(--bg-tertiary);
+  color: var(--text-primary);
+}
+
+/* ===========================================
+   BOOK CARDS
+   =========================================== */
+
+.book-card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.book-cover {
+  width: 80px;
+  height: 100px;
+  background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+  color: white;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--text-2xl);
+  margin-bottom: var(--space-3);
+  box-shadow: var(--shadow-md);
+}
+
+.book-title {
+  font-size: var(--text-lg);
+  font-weight: var(--font-semibold);
+  color: var(--text-primary);
+  margin-bottom: var(--space-1);
+}
+
+.book-author {
+  font-size: var(--text-base);
+  color: var(--accent-primary);
+  font-weight: var(--font-medium);
+  margin-bottom: var(--space-3);
+}
+
+.book-description {
+  color: var(--text-secondary);
+  line-height: var(--leading-relaxed);
+  margin-bottom: var(--space-3);
+  flex: 1;
+}
+
+.book-category {
+  margin-top: auto;
+}
+
+/* ===========================================
+   HERO/INTEREST/HOBBY CARDS
+   =========================================== */
+
+.hero-card,
+.interest-card,
+.hobby-card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.hero-avatar,
+.interest-icon,
+.hobby-icon {
+  width: 64px;
+  height: 64px;
+  background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--text-2xl);
+  margin-bottom: var(--space-2);
+}
+
+.hero-name,
+.interest-title,
+.hobby-title {
+  font-size: var(--text-lg);
+  font-weight: var(--font-semibold);
+  color: var(--text-primary);
+  margin-bottom: var(--space-2);
+}
+
+.hero-description,
+.interest-description,
+.hobby-description {
+  color: var(--text-secondary);
+  line-height: var(--leading-relaxed);
+  text-align: center;
+}
+
+/* ===========================================
+   CARD ANIMATIONS & STATES
+   =========================================== */
+
+.card.hidden-initially {
+  display: none;
+}
+
+.card.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ===========================================
+   RESPONSIVE DESIGN
+   =========================================== */
+
+@media (max-width: 768px) {
+  .card {
+    padding: var(--space-4);
+  }
+  
+  .skill-icon,
+  .hero-avatar,
+  .interest-icon,
+  .hobby-icon {
+    width: 56px;
+    height: 56px;
+    font-size: var(--text-xl);
+  }
+  
+  .project-image {
+    height: 160px;
+    font-size: var(--text-3xl);
+  }
+  
+  .project-links {
+    flex-direction: column;
+    gap: var(--space-2);
+  }
+  
+  .project-link {
+    justify-content: center;
+  }
+  
+  .book-cover {
+    width: 64px;
+    height: 80px;
+    font-size: var(--text-xl);
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    padding: var(--space-3);
+  }
+  
+  .skill-title,
+  .project-title,
+  .book-title,
+  .hero-name,
+  .interest-title,
+  .hobby-title {
+    font-size: var(--text-base);
+  }
+  
+  .skill-description,
+  .project-description,
+  .book-description,
+  .hero-description,
+  .interest-description,
+  .hobby-description {
+    font-size: var(--text-sm);
+  }
+  
+  .project-image {
+    height: 140px;
+    font-size: var(--text-2xl);
+  }
+  
+  .tech-tag {
+    font-size: var(--text-xs);
+    padding: var(--space-1) var(--space-2);
+  }
+}

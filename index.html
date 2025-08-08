@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koustubh Dave - Portfolio</title>
+    
+    <!-- CSS Files - Modular Structure -->
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/sections.css">
+    <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/themes.css">
+    
+    <!-- External Dependencies -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body data-theme="light">
+    <!-- Header Navigation -->
+    <header class="header" id="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <div class="brand-icon">
+                    <span class="light-icon">🔆</span>
+                    <span class="dark-icon">🛡️</span>
+                </div>
+                <span class="brand-text">Koustubh Dave</span>
+            </div>
+            
+            <div class="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#books" class="nav-link">Books</a>
+                <a href="#interests" class="nav-link">Philosophy</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <div class="toggle-slider">
+                    <div class="toggle-thumb">
+                        <i class="fas fa-sun light-toggle-icon"></i>
+                        <i class="fas fa-shield-alt dark-toggle-icon"></i>
+                    </div>
+                </div>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="about">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <div class="hero-greeting">
+                            <span class="greeting-text light-greeting">Namaste</span>
+                            <span class="greeting-text dark-greeting">Target Acquired</span>
+                        </div>
+                        
+                        <h1 class="hero-title" id="heroTitle">
+                            <span class="light-title">Web Developer</span>
+                            <span class="dark-title">Cybersecurity Specialist</span>
+                        </h1>
+                        
+                        <p class="hero-subtitle" id="heroSubtitle">
+                            <span class="light-subtitle">Building innovative web solutions with strategic thinking and formidable technology</span>
+                            <span class="dark-subtitle">Defending digital realms through tactical cybersecurity and strategic analysis</span>
+                        </p>
+                        
+                        <div class="hero-stats" id="heroStats">
+                            <!-- Stats will be loaded dynamically -->
+                        </div>
+                        
+                        <div class="hero-actions">
+                            <button class="btn btn-primary" id="viewWorkBtn">
+                                <span class="light-btn-text">View My Work</span>
+                                <span class="dark-btn-text">View Operations</span>
+                            </button>
+                            <button class="btn btn-secondary" id="contactBtn">Get In Touch</button>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-visual">
+                        <div class="hero-avatar">
+                            <div class="avatar-ring"></div>
+                            <div class="avatar-content">
+                                <i class="fas fa-code light-avatar-icon"></i>
+                                <i class="fas fa-shield-alt dark-avatar-icon"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills section" id="skills">
+            <div class="container">
+                <h2 class="section-title">
+                    <span class="light-section-title">Development Arsenal</span>
+                    <span class="dark-section-title">Cyber Warfare Tools</span>
+                </h2>
+                <div class="skills-grid" id="skillsGrid">
+                    <!-- Skills will be loaded dynamically -->
+                </div>
+                <button class="expand-btn" id="expandSkills" style="display: none;">
+                    <span>Show More Skills</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects section" id="projects">
+            <div class="container">
+                <h2 class="section-title">
+                    <span class="light-section-title">Featured Projects</span>
+                    <span class="dark-section-title">Security Operations</span>
+                </h2>
+                <div class="projects-grid" id="projectsGrid">
+                    <!-- Projects will be loaded dynamically -->
+                </div>
+                <button class="expand-btn" id="expandProjects" style="display: none;">
+                    <span>Show More Projects</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+            </div>
+        </section>
+
+        <!-- Books Section -->
+        <section class="books section" id="books">
+            <div class="container">
+                <h2 class="section-title">Strategic Library</h2>
+                <p class="section-description">Books that shaped my strategic thinking and philosophical worldview</p>
+                <div class="books-grid" id="booksGrid">
+                    <!-- Books will be loaded dynamically -->
+                </div>
+                <button class="expand-btn" id="expandBooks" style="display: none;">
+                    <span>Show More Books</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+            </div>
+        </section>
+
+        <!-- Interests & Philosophy Section -->
+        <section class="interests section" id="interests">
+            <div class="container">
+                <h2 class="section-title">Philosophy & Heroes</h2>
+                <p class="section-description">The warriors, philosophers, and thinkers who inspire my journey</p>
+                
+                <div class="interests-content">
+                    <div class="heroes-section">
+                        <h3 class="subsection-title">Historical Heroes & Philosophers</h3>
+                        <div class="heroes-grid" id="heroesGrid">
+                            <!-- Heroes will be loaded dynamically -->
+                        </div>
+                        <button class="expand-btn" id="expandHeroes" style="display: none;">
+                            <span>Show More Heroes</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                    </div>
+                    
+                    <div class="interests-section">
+                        <h3 class="subsection-title">Core Interests</h3>
+                        <div class="interests-grid" id="interestsGrid">
+                            <!-- Interests will be loaded dynamically -->
+                        </div>
+                    </div>
+                    
+                    <div class="hobbies-section">
+                        <h3 class="subsection-title">Strategic Pursuits</h3>
+                        <div class="hobbies-grid" id="hobbiesGrid">
+                            <!-- Hobbies will be loaded dynamically -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quotes Section -->
+        <section class="quotes section">
+            <div class="container">
+                <h2 class="section-title">Words of Wisdom</h2>
+                <div class="quote-display" id="quoteDisplay">
+                    <blockquote class="quote-text" id="quoteText">
+                        Loading wisdom...
+                    </blockquote>
+                    <cite class="quote-author" id="quoteAuthor">Ancient Sage</cite>
+                    <button class="quote-refresh" id="quoteRefresh" aria-label="New quote">
+                        <i class="fas fa-sync-alt"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <h2 class="section-title">Connect With Me</h2>
+                <div class="contact-content">
+                    <div class="contact-info" id="contactInfo">
+                        <!-- Contact info will be loaded dynamically -->
+                    </div>
+                    <div class="contact-form">
+                        <form class="form" id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2024 Koustubh Dave. Crafted with dharmic principles and strategic thinking.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Modules -->
+    <script src="js/utils.js"></script>
+    <script src="js/dataLoader.js"></script>
+    <script src="js/themeManager.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+{
+  "heroes": [
+    {
+      "name": "Subhas Chandra Bose",
+      "description": "Indian freedom fighter and strategic military leader who formed the Indian National Army. A true patriot and tactical genius.",
+      "icon": "fas fa-flag"
+    },
+    {
+      "name": "Vinayak Damodar Savarkar",
+      "description": "Revolutionary freedom fighter, political philosopher, and advocate of Hindutva. A strategic thinker and fearless patriot.",
+      "icon": "fas fa-fire"
+    },
+    {
+      "name": "Nathuram Godse",
+      "description": "Controversial figure who believed in decisive action for his principles. A complex personality in Indian history.",
+      "icon": "fas fa-bolt"
+    },
+    {
+      "name": "Mangal Pandey",
+      "description": "Indian soldier who sparked the 1857 rebellion against British rule. Symbol of courage and resistance.",
+      "icon": "fas fa-sword"
+    },
+    {
+      "name": "Immadi Pulakeshi",
+      "description": "Chalukya emperor who successfully resisted Harsha's expansion. Master of military strategy and diplomacy.",
+      "icon": "fas fa-chess-king"
+    },
+    {
+      "name": "Chakravarti Vikramaditya",
+      "description": "Legendary emperor known for his wisdom, valor, and just rule. Symbol of ideal kingship in Indian tradition.",
+      "icon": "fas fa-crown"
+    },
+    {
+      "name": "Maharana Pratap",
+      "description": "Rajput warrior king who never surrendered to Mughal rule. Embodiment of courage and independence.",
+      "icon": "fas fa-shield"
+    },
+    {
+      "name": "Guru Gobind Singh",
+      "description": "Tenth Sikh Guru, warrior-saint who established the Khalsa. Perfect blend of spirituality and martial prowess.",
+      "icon": "fas fa-khanda"
+    },
+    {
+      "name": "Adi Shankaracharya",
+      "description": "Philosopher who consolidated Advaita Vedanta and established four cardinal monasteries. Intellectual giant of ancient India.",
+      "icon": "fas fa-om"
+    },
+    {
+      "name": "Vallabhacharya",
+      "description": "Philosopher and devotional teacher who founded Pushti Marg. Advocate of pure devotion and divine grace.",
+      "icon": "fas fa-lotus"
+    }
+  ],
+  "interests": [
+    {
+      "title": "Strategic Warfare",
+      "description": "Study of military tactics, ancient Indian warfare, and geopolitical strategy. Understanding the art of conflict and victory.",
+      "icon": "fas fa-chess-king"
+    },
+    {
+      "title": "Indian Philosophy",
+      "description": "Deep exploration of Vedanta, dharmic traditions, and spiritual texts. Seeking truth through ancient wisdom.",
+      "icon": "fas fa-om"
+    },
+    {
+      "title": "Geopolitics",
+      "description": "Analysis of global power dynamics, international relations, and strategic competition between nations.",
+      "icon": "fas fa-globe"
+    },
+    {
+      "title": "Psychology & Behavior",
+      "description": "Understanding human nature, cognitive biases, and behavioral patterns in decision-making and conflict.",
+      "icon": "fas fa-brain"
+    },
+    {
+      "title": "Dharmic Traditions",
+      "description": "Study of Hindu, Buddhist, and Jain philosophical schools and their practical applications in modern life.",
+      "icon": "fas fa-dharma-wheel"
+    },
+    {
+      "title": "Intelligence Analysis",
+      "description": "Methods of information gathering, analysis, and strategic intelligence in both historical and modern contexts.",
+      "icon": "fas fa-eye"
+    }
+  ],
+  "hobbies": [
+    {
+      "title": "Chess",
+      "description": "Strategic board game that develops tactical thinking, pattern recognition, and long-term planning abilities.",
+      "icon": "fas fa-chess-knight"
+    },
+    {
+      "title": "Go (Weiqi)",
+      "description": "Ancient strategy game of territory and influence. Teaches systems thinking and strategic patience.",
+      "icon": "fas fa-circle"
+    },
+    {
+      "title": "Historical Research",
+      "description": "Deep study of Indian history, military campaigns, and the lives of great leaders and philosophers.",
+      "icon": "fas fa-book"
+    },
+    {
+      "title": "Conflict Analysis",
+      "description": "Analyzing historical and contemporary conflicts to understand strategic principles and tactical innovations.",
+      "icon": "fas fa-analytics"
+    },
+    {
+      "title": "Philosophy Discussions",
+      "description": "Engaging in deep philosophical debates about ethics, metaphysics, and the nature of reality and duty.",
+      "icon": "fas fa-comments"
+    },
+    {
+      "title": "Meditation & Reflection",
+      "description": "Daily practice of mindfulness and self-reflection based on dharmic principles and Vedantic teachings.",
+      "icon": "fas fa-meditation"
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+/* 
+   CSS Variables - Design System
+   =============================
+   Central place for all design tokens including colors, spacing,
+   typography, and other reusable values.
+*/
+
+:root {
+  /* ===========================================
+     COLOR SYSTEM
+     =========================================== */
+  
+  /* Light Theme Colors */
+  --light-bg-primary: #ffffff;
+  --light-bg-secondary: #f8fafc;
+  --light-bg-tertiary: #e2e8f0;
+  --light-text-primary: #1e293b;
+  --light-text-secondary: #475569;
+  --light-text-muted: #64748b;
+  --light-accent-primary: #3b82f6;
+  --light-accent-secondary: #1d4ed8;
+  --light-border: #e2e8f0;
+  --light-shadow: rgba(0, 0, 0, 0.1);
+
+  /* Dark Theme Colors */
+  --dark-bg-primary: #0f172a;
+  --dark-bg-secondary: #1e293b;
+  --dark-bg-tertiary: #334155;
+  --dark-text-primary: #f1f5f9;
+  --dark-text-secondary: #cbd5e1;
+  --dark-text-muted: #94a3b8;
+  --dark-accent-primary: #ef4444;
+  --dark-accent-secondary: #dc2626;
+  --dark-border: #334155;
+  --dark-shadow: rgba(0, 0, 0, 0.5);
+
+  /* Semantic Colors */
+  --success: #10b981;
+  --warning: #f59e0b;
+  --error: #ef4444;
+  --info: #3b82f6;
+
+  /* ===========================================
+     SPACING SYSTEM
+     =========================================== */
+  --space-1: 0.25rem;   /* 4px */
+  --space-2: 0.5rem;    /* 8px */
+  --space-3: 0.75rem;   /* 12px */
+  --space-4: 1rem;      /* 16px */
+  --space-5: 1.25rem;   /* 20px */
+  --space-6: 1.5rem;    /* 24px */
+  --space-8: 2rem;      /* 32px */
+  --space-10: 2.5rem;   /* 40px */
+  --space-12: 3rem;     /* 48px */
+  --space-16: 4rem;     /* 64px */
+  --space-20: 5rem;     /* 80px */
+  --space-24: 6rem;     /* 96px */
+
+  /* Legacy spacing (for compatibility) */
+  --space-xs: var(--space-1);
+  --space-sm: var(--space-2);
+  --space-md: var(--space-4);
+  --space-lg: var(--space-6);
+  --space-xl: var(--space-8);
+  --space-2xl: var(--space-12);
+
+  /* ===========================================
+     TYPOGRAPHY SYSTEM
+     =========================================== */
+  
+  /* Font Families */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', Consolas, monospace;
+
+  /* Font Sizes */
+  --text-xs: 0.75rem;     /* 12px */
+  --text-sm: 0.875rem;    /* 14px */
+  --text-base: 1rem;      /* 16px */
+  --text-lg: 1.125rem;    /* 18px */
+  --text-xl: 1.25rem;     /* 20px */
+  --text-2xl: 1.5rem;     /* 24px */
+  --text-3xl: 1.875rem;   /* 30px */
+  --text-4xl: 2.25rem;    /* 36px */
+  --text-5xl: 3rem;       /* 48px */
+  --text-6xl: 3.75rem;    /* 60px */
+
+  /* Font Weights */
+  --font-light: 300;
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+
+  /* Line Heights */
+  --leading-tight: 1.25;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.75;
+
+  /* ===========================================
+     LAYOUT SYSTEM
+     =========================================== */
+  
+  /* Container Sizes */
+  --container-sm: 640px;
+  --container-md: 768px;
+  --container-lg: 1024px;
+  --container-xl: 1280px;
+  --container-2xl: 1536px;
+
+  /* Border Radius */
+  --radius-sm: 0.25rem;   /* 4px */
+  --radius-md: 0.5rem;    /* 8px */
+  --radius-lg: 0.75rem;   /* 12px */
+  --radius-xl: 1rem;      /* 16px */
+  --radius-2xl: 1.5rem;   /* 24px */
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+
+  /* ===========================================
+     ANIMATION SYSTEM
+     =========================================== */
+  
+  /* Transition Durations */
+  --transition-fast: 150ms;
+  --transition-normal: 300ms;
+  --transition-slow: 500ms;
+
+  /* Easing Functions */
+  --ease-in: cubic-bezier(0.4, 0, 1, 1);
+  --ease-out: cubic-bezier(0, 0, 0.2, 1);
+  --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* ===========================================
+     Z-INDEX SYSTEM
+     =========================================== */
+  --z-dropdown: 1000;
+  --z-sticky: 1020;
+  --z-fixed: 1030;
+  --z-modal-backdrop: 1040;
+  --z-modal: 1050;
+  --z-popover: 1060;
+  --z-tooltip: 1070;
+
+  /* ===========================================
+     COMPONENT SPECIFIC
+     =========================================== */
+  
+  /* Header */
+  --header-height: 4rem;
+  
+  /* Cards */
+  --card-padding: var(--space-6);
+  --card-radius: var(--radius-lg);
+  
+  /* Buttons */
+  --btn-padding-x: var(--space-6);
+  --btn-padding-y: var(--space-3);
+  --btn-radius: var(--radius-md);
+  
+  /* Forms */
+  --input-padding-x: var(--space-4);
+  --input-padding-y: var(--space-3);
+  --input-radius: var(--radius-md);
+}
+
+/* ===========================================
+   THEME SWITCHING
+   =========================================== */
+
+/* Light Theme (Default) */
+[data-theme="light"] {
+  --bg-primary: var(--light-bg-primary);
+  --bg-secondary: var(--light-bg-secondary);
+  --bg-tertiary: var(--light-bg-tertiary);
+  --text-primary: var(--light-text-primary);
+  --text-secondary: var(--light-text-secondary);
+  --text-muted: var(--light-text-muted);
+  --accent-primary: var(--light-accent-primary);
+  --accent-secondary: var(--light-accent-secondary);
+  --border-color: var(--light-border);
+  --shadow-color: var(--light-shadow);
+}
+
+/* Dark Theme */
+[data-theme="dark"] {
+  --bg-primary: var(--dark-bg-primary);
+  --bg-secondary: var(--dark-bg-secondary);
+  --bg-tertiary: var(--dark-bg-tertiary);
+  --text-primary: var(--dark-text-primary);
+  --text-secondary: var(--dark-text-secondary);
+  --text-muted: var(--dark-text-muted);
+  --accent-primary: var(--dark-accent-primary);
+  --accent-secondary: var(--dark-accent-secondary);
+  --border-color: var(--dark-border);
+  --shadow-color: var(--dark-shadow);
+}
+
+/* ===========================================
+   RESPONSIVE BREAKPOINTS
+   =========================================== */
+
+/* These are used in media queries throughout the CSS */
+/* 
+  Mobile: 320px - 767px
+  Tablet: 768px - 1023px
+  Desktop: 1024px - 1439px
+  Large Desktop: 1440px+
+*/

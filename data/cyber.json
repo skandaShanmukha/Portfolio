@@ -1,0 +1,87 @@
+{
+  "skills": [
+    {
+      "title": "Penetration Testing",
+      "description": "Ethical hacking and vulnerability assessment using industry-standard methodologies and tools.",
+      "icon": "fas fa-shield-alt",
+      "level": 75
+    },
+    {
+      "title": "Network Security",
+      "description": "Securing network infrastructure, protocols, and implementing defense-in-depth strategies.",
+      "icon": "fas fa-network-wired",
+      "level": 80
+    },
+    {
+      "title": "Digital Forensics",
+      "description": "Investigation and analysis of digital evidence with proper chain of custody procedures.",
+      "icon": "fas fa-search",
+      "level": 70
+    },
+    {
+      "title": "Threat Intelligence",
+      "description": "Analyzing threat patterns, IOCs, and developing strategic defense mechanisms.",
+      "icon": "fas fa-eye",
+      "level": 78
+    },
+    {
+      "title": "Incident Response",
+      "description": "Rapid response to security incidents with containment, eradication, and recovery procedures.",
+      "icon": "fas fa-exclamation-triangle",
+      "level": 82
+    },
+    {
+      "title": "Security Architecture",
+      "description": "Designing secure systems with strategic thinking and risk-based approaches.",
+      "icon": "fas fa-fortress",
+      "level": 75
+    }
+  ],
+  "projects": [
+    {
+      "title": "Automated Vulnerability Scanner",
+      "description": "Custom security assessment tool with automated scanning, reporting, and remediation recommendations.",
+      "icon": "fas fa-bug",
+      "tech": ["Python", "Nmap", "SQLMap", "Metasploit"],
+      "demo": "#classified",
+      "github": null,
+      "featured": true
+    },
+    {
+      "title": "Network Intrusion Detection",
+      "description": "Real-time network monitoring system with ML-based anomaly detection and threat classification.",
+      "icon": "fas fa-shield-virus",
+      "tech": ["Python", "Suricata", "ELK Stack", "TensorFlow"],
+      "demo": "#classified",
+      "github": null,
+      "featured": true
+    },
+    {
+      "title": "Digital Forensics Toolkit",
+      "description": "Comprehensive forensics analysis suite for incident response and evidence collection.",
+      "icon": "fas fa-microscope",
+      "tech": ["Python", "Volatility", "Autopsy", "YARA"],
+      "demo": "#classified",
+      "github": null,
+      "featured": false
+    },
+    {
+      "title": "Threat Intelligence Platform",
+      "description": "Centralized threat intelligence gathering and analysis with automated IOC correlation.",
+      "icon": "fas fa-brain",
+      "tech": ["Python", "MISP", "STIX/TAXII", "Redis"],
+      "demo": "#classified",
+      "github": null,
+      "featured": false
+    },
+    {
+      "title": "Security Awareness Training",
+      "description": "Interactive cybersecurity training platform with phishing simulations and progress tracking.",
+      "icon": "fas fa-graduation-cap",
+      "tech": ["React", "Node.js", "MongoDB", "Docker"],
+      "demo": "#classified",
+      "github": null,
+      "featured": false
+    }
+  ]
+}

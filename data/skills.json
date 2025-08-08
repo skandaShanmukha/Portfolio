@@ -1,0 +1,86 @@
+{
+  "light": [
+    {
+      "icon": "fas fa-brain",
+      "title": "Strategic Design",
+      "description": "Systems thinking applied to user experience and interface architecture"
+    },
+    {
+      "icon": "fas fa-code",
+      "title": "Creative Development", 
+      "description": "Modern web technologies with artistic sensibility and strategic purpose"
+    },
+    {
+      "icon": "fas fa-chess",
+      "title": "UX Strategy",
+      "description": "Game theory and behavioral psychology in user interface design"
+    },
+    {
+      "icon": "fas fa-palette",
+      "title": "Visual Systems",
+      "description": "Design systems that scale, adapt, and maintain coherence"
+    },
+    {
+      "icon": "fas fa-rocket",
+      "title": "Performance Architecture",
+      "description": "Optimization strategies for speed, accessibility, and user engagement"
+    },
+    {
+      "icon": "fas fa-users",
+      "title": "Team Dynamics",
+      "description": "Leadership through strategic thinking and collaborative problem-solving"
+    },
+    {
+      "icon": "fas fa-lightbulb",
+      "title": "Innovation Strategy",
+      "description": "Creative problem-solving with systematic approach to breakthrough solutions"
+    },
+    {
+      "icon": "fas fa-chart-line",
+      "title": "Growth Engineering",
+      "description": "Data-driven optimization and strategic scaling methodologies"
+    }
+  ],
+  "dark": [
+    {
+      "icon": "fas fa-shield-alt",
+      "title": "Cyber Warfare",
+      "description": "Advanced persistent threat simulation and digital battlefield tactics"
+    },
+    {
+      "icon": "fas fa-terminal",
+      "title": "Systems Infiltration",
+      "description": "Ethical hacking, penetration testing, and vulnerability exploitation"
+    },
+    {
+      "icon": "fab fa-linux",
+      "title": "Tactical Systems",
+      "description": "Linux mastery, system hardening, and operational security protocols"
+    },
+    {
+      "icon": "fas fa-search",
+      "title": "Intelligence Gathering",
+      "description": "OSINT operations, reconnaissance, and strategic information warfare"
+    },
+    {
+      "icon": "fab fa-python",
+      "title": "Weapon Development",
+      "description": "Custom security tools, exploit frameworks, and automation scripts"
+    },
+    {
+      "icon": "fas fa-network-wired",
+      "title": "Network Warfare",
+      "description": "Infrastructure analysis, traffic manipulation, and digital siegecraft"
+    },
+    {
+      "icon": "fas fa-eye",
+      "title": "Threat Intelligence",
+      "description": "Strategic analysis of adversary capabilities and tactical patterns"
+    },
+    {
+      "icon": "fas fa-chess-knight",
+      "title": "Strategic Command",
+      "description": "Military-inspired leadership and tactical decision-making frameworks"
+    }
+  ]
+}

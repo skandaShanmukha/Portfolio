@@ -1,0 +1,799 @@
+/* 
+   RESPONSIVE.CSS - Mobile and Tablet Adaptations
+   ==============================================
+   This file contains responsive design rules for:
+   - Mobile layout adjustments
+   - Tablet optimizations
+   - Touch interface considerations
+   - Accessibility improvements
+*/
+
+/* ===========================================
+   LARGE DESKTOP (1440px+)
+   =========================================== */
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1400px;
+  }
+  
+  .hero-title {
+    font-size: 4rem;
+  }
+  
+  .title-main {
+    font-size: 3rem;
+  }
+  
+  .skills-grid,
+  .projects-grid {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
+  
+  .section-title {
+    font-size: 3.5rem;
+  }
+}
+
+/* ===========================================
+   DESKTOP (1200px - 1439px)
+   =========================================== */
+@media (max-width: 1439px) and (min-width: 1200px) {
+  .container {
+    padding: 0 var(--space-6);
+  }
+}
+
+/* ===========================================
+   STANDARD DESKTOP (1024px - 1199px)
+   =========================================== */
+@media (max-width: 1199px) and (min-width: 1024px) {
+  .hero-content {
+    gap: 4rem;
+  }
+  
+  .mind-interface {
+    width: 350px;
+    height: 350px;
+  }
+  
+  .strategy-games {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* ===========================================
+   TABLET LANDSCAPE (768px - 1023px)
+   =========================================== */
+@media (max-width: 1023px) and (min-width: 768px) {
+  /* Header adjustments */
+  .nav-links {
+    gap: var(--space-md);
+  }
+  
+  .nav-links a {
+    font-size: 0.85rem;
+  }
+  
+  /* Hero section */
+  .hero {
+    padding: 6rem 0 4rem;
+  }
+  
+  .hero-content {
+    gap: var(--space-12);
+  }
+  
+  .hero-title {
+    font-size: var(--text-4xl);
+  }
+  
+  .hero-stats {
+    gap: var(--space-md);
+  }
+  
+  .mind-interface {
+    width: 300px;
+    height: 300px;
+  }
+  
+  .central-node {
+    inset: 120px;
+  }
+  
+  /* Sections */
+  .skills,
+  .projects,
+  .resume,
+  .strategy-section,
+  .blog-section,
+  .mindmap-section {
+    padding: var(--space-16) 0;
+  }
+  
+  .section-title {
+    font-size: var(--text-3xl);
+    margin-bottom: var(--space-10);
+  }
+  
+  .title-main {
+    font-size: 3rem;
+  }
+  
+  /* Grids */
+  .skills-grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+  
+  .projects-grid {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
+  
+  /* Strategy section */
+  .strategy-games {
+    grid-template-columns: 1fr;
+    gap: var(--space-xl);
+  }
+  
+  /* Quote widget */
+  .quote-widget {
+    max-width: 300px;
+  }
+}
+
+/* ===========================================
+   TABLET PORTRAIT (600px - 767px)
+   =========================================== */
+@media (max-width: 767px) and (min-width: 600px) {
+  /* Navigation - hide links, would need hamburger menu */
+  .nav-links {
+    display: none;
+  }
+  
+  /* Hero adjustments */
+  .hero {
+    padding: 6rem 0 4rem;
+    text-align: center;
+  }
+  
+  .hero-content {
+    grid-template-columns: 1fr;
+    gap: var(--space-8);
+  }
+  
+  .hero-title {
+    font-size: var(--text-3xl);
+  }
+  
+  .hero-subtitle {
+    font-size: var(--text-base);
+  }
+  
+  .mind-interface {
+    width: 280px;
+    height: 280px;
+  }
+  
+  .central-node {
+    inset: 110px;
+  }
+  
+  .node-core {
+    font-size: 2.5rem;
+  }
+  
+  /* Single column layouts */
+  .skills-grid,
+  .projects-grid,
+  .blog-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .resume-content {
+    grid-template-columns: 1fr;
+    gap: var(--space-xl);
+  }
+  
+  /* Mindmap adjustments */
+  .mindmap-container {
+    height: 350px;
+  }
+  
+  .section {
+    padding: var(--space-12) 0;
+  }
+  
+  .section-title {
+    font-size: var(--text-2xl);
+    margin-bottom: var(--space-8);
+  }
+  
+  .section-description {
+    font-size: var(--text-base);
+    margin-bottom: var(--space-8);
+  }
+  
+  .subsection-title {
+    font-size: var(--text-xl);
+    margin-bottom: var(--space-6);
+  }
+  
+  .interests-content {
+    gap: var(--space-12);
+  }
+  
+  .contact-content {
+    grid-template-columns: 1fr;
+    gap: var(--space-8);
+  }
+  
+  .quote-display {
+    padding: var(--space-6);
+  }
+  
+  .quote-text {
+    font-size: var(--text-lg);
+  }
+}
+
+/* ===========================================
+   MOBILE LARGE (480px - 599px)
+   =========================================== */
+@media (max-width: 599px) and (min-width: 480px) {
+  /* Container padding */
+  .container {
+    padding: 0 var(--space-4);
+  }
+  
+  /* Header */
+  .nav {
+    padding: var(--space-md);
+  }
+  
+  .logo-text {
+    font-size: 1.1rem;
+  }
+  
+  .theme-toggle {
+    width: 50px;
+    height: 28px;
+  }
+  
+  .toggle-thumb {
+    width: 16px;
+    height: 16px;
+  }
+  
+  [data-theme="dark"] .toggle-thumb {
+    transform: translateX(22px);
+  }
+  
+  /* Hero section */
+  .hero {
+    padding: 5rem 0 3rem;
+  }
+  
+  .hero-title {
+    font-size: var(--text-2xl);
+  }
+  
+  .hero-stats {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--space-4);
+  }
+  
+  .stat {
+    min-width: 120px;
+  }
+  
+  .hero-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .hero-actions .btn {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .mind-interface {
+    width: 250px;
+    height: 250px;
+  }
+  
+  /* Section adjustments */
+  .section-title {
+    margin-bottom: var(--space-xl);
+  }
+  
+  .title-main {
+    font-size: 2.2rem;
+  }
+  
+  .section {
+    padding: var(--space-10) 0;
+  }
+  
+  /* Cards */
+  .skill-card,
+  .project-card,
+  .blog-card {
+    padding: 1.5rem;
+  }
+  
+  .project-content {
+    padding: 1.5rem;
+  }
+  
+  /* Strategy section */
+  .board-grid {
+    width: 160px;
+    height: 160px;
+  }
+  
+  /* Blog filters */
+  .blog-filters {
+    gap: var(--space-sm);
+  }
+  
+  .filter-btn {
+    padding: 0.4rem var(--space-md);
+    font-size: 0.85rem;
+  }
+  
+  /* Quote widget */
+  .quote-display {
+    padding: var(--space-4);
+  }
+  
+  .quote-text {
+    font-size: var(--text-base);
+  }
+  
+  .quote-author {
+    font-size: var(--text-base);
+  }
+  
+  /* Modal adjustments */
+  .modal-content {
+    margin: var(--space-md);
+  }
+  
+  .modal-body {
+    padding: var(--space-lg);
+  }
+  
+  .contact-item {
+    flex-direction: column;
+    text-align: center;
+    gap: var(--space-3);
+  }
+}
+
+/* ===========================================
+   MOBILE SMALL (320px - 479px)
+   =========================================== */
+@media (max-width: 479px) {
+  /* Base adjustments */
+  html {
+    font-size: 14px;
+  }
+  
+  .container {
+    padding: 0 var(--space-md);
+  }
+  
+  /* Header */
+  .nav {
+    padding: var(--space-sm) var(--space-md);
+  }
+  
+  .logo-text {
+    font-size: 1rem;
+  }
+  
+  .logo-icon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .chess-king,
+  .terminal-cursor {
+    font-size: 1.2rem;
+  }
+  
+  /* Hero section */
+  .hero {
+    padding: 4rem 0 2rem;
+    text-align: center;
+  }
+  
+  .hero-title {
+    font-size: var(--text-xl);
+  }
+  
+  .hero-subtitle {
+    font-size: var(--text-base);
+  }
+  
+  .hero-stats {
+    flex-direction: column;
+    gap: var(--space-sm);
+  }
+  
+  .stat-number {
+    font-size: 1.5rem;
+  }
+  
+  .stat-label {
+    font-size: 0.7rem;
+  }
+  
+  .hero-actions {
+    flex-direction: column;
+    gap: var(--space-md);
+    align-items: center;
+  }
+  
+  .hero-actions .btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 0.85rem;
+  }
+  
+  .mind-interface {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .central-node {
+    inset: 80px;
+  }
+  
+  .node-core {
+    font-size: 2rem;
+  }
+  
+  /* Sections */
+  .skills,
+  .projects,
+  .resume,
+  .strategy-section,
+  .blog-section,
+  .mindmap-section {
+    padding: 3rem 0;
+  }
+  
+  .section-title {
+    font-size: var(--text-lg);
+  }
+  
+  .title-sub {
+    font-size: 0.85rem;
+  }
+  
+  /* Cards */
+  .skill-card,
+  .project-card,
+  .blog-card {
+    padding: var(--space-md);
+  }
+  
+  .skill-icon {
+    font-size: 2rem;
+  }
+  
+  .skill-title,
+  .project-title,
+  .blog-title {
+    font-size: 1.1rem;
+  }
+  
+  .skill-description,
+  .project-description,
+  .blog-excerpt {
+    font-size: 0.85rem;
+  }
+  
+  /* Project specific */
+  .project-image {
+    height: 140px;
+    font-size: 2rem;
+  }
+  
+  .project-content {
+    padding: var(--space-md);
+  }
+  
+  .project-links {
+    flex-direction: column;
+    gap: var(--space-sm);
+  }
+  
+  /* Tech tags */
+  .tech-tag {
+    font-size: 0.7rem;
+    padding: 0.2rem 0.6rem;
+  }
+  
+  /* Strategy boards */
+  .board-grid {
+    width: 140px;
+    height: 140px;
+  }
+  
+  .chess-grid {
+    background-size: 17px 17px;
+    background-position: 0 0, 0 8.5px, 8.5px -8.5px, -8.5px 0px;
+  }
+  
+  .go-grid {
+    background-size: 14px 14px;
+  }
+  
+  /* Blog specific */
+  .blog-meta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-sm);
+  }
+  
+  .blog-date,
+  .blog-category {
+    font-size: 0.7rem;
+  }
+  
+  /* Resume section */
+  .quick-contact,
+  .resume-download {
+    padding: var(--space-md);
+  }
+  
+  .contact-item {
+    gap: var(--space-sm);
+  }
+  
+  .contact-icon {
+    font-size: 1rem;
+  }
+  
+  .contact-label {
+    font-size: 0.7rem;
+  }
+  
+  .contact-value {
+    font-size: 0.85rem;
+  }
+  
+  .social-link {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+  }
+  
+  .resume-preview {
+    padding: var(--space-md);
+  }
+  
+  .resume-preview i {
+    font-size: 2.5rem;
+  }
+  
+  .resume-info h3 {
+    font-size: 1.1rem;
+  }
+  
+  .resume-info p {
+    font-size: 0.8rem;
+  }
+  
+  /* Quote widget */
+  .quote-display {
+    padding: var(--space-2);
+  }
+  
+  .quote-text {
+    font-size: var(--text-sm);
+  }
+  
+  .quote-author {
+    font-size: var(--text-sm);
+  }
+  
+  .quote-refresh {
+    width: 24px;
+    height: 24px;
+    top: var(--space-sm);
+    right: var(--space-sm);
+  }
+  
+  .quote-refresh i {
+    font-size: 0.7rem;
+  }
+  
+  /* Mindmap */
+  .mindmap-container {
+    height: 250px;
+  }
+  
+  .mindmap-node.central {
+    width: 60px;
+    height: 60px;
+    font-size: 0.6rem;
+  }
+  
+  .mindmap-node.primary {
+    width: 45px;
+    height: 45px;
+    font-size: 0.5rem;
+  }
+  
+  .mindmap-node.secondary {
+    width: 30px;
+    height: 30px;
+    font-size: 0.4rem;
+  }
+  
+  /* Modal */
+  .modal-content {
+    margin: var(--space-sm);
+  }
+  
+  .modal-body {
+    padding: var(--space-md);
+  }
+  
+  .modal-body h1 {
+    font-size: 1.3rem;
+  }
+  
+  .modal-body h2 {
+    font-size: 1.1rem;
+  }
+  
+  .modal-close {
+    width: 32px;
+    height: 32px;
+    font-size: 1.5rem;
+  }
+}
+
+/* ===========================================
+   TOUCH INTERFACE OPTIMIZATIONS
+   =========================================== */
+@media (hover: none) and (pointer: coarse) {
+  /* Increase touch targets */
+  .btn,
+  .filter-btn,
+  .show-more-btn {
+    min-height: 44px;
+    padding: var(--space-sm) var(--space-lg);
+  }
+  
+  .theme-toggle {
+    min-width: 44px;
+    min-height: 44px;
+  }
+  
+  .nav-links a {
+    padding: var(--space-md) var(--space-sm);
+  }
+  
+  .social-link {
+    min-width: 44px;
+    min-height: 44px;
+  }
+  
+  /* Remove hover effects that don't work on touch */
+  .skill-card:hover,
+  .project-card:hover,
+  .blog-card:hover,
+  .game-board:hover {
+    transform: none;
+    box-shadow: var(--shadow-medium);
+  }
+  
+  /* Make cards more touch-friendly */
+  .skill-card,
+  .project-card,
+  .blog-card {
+    cursor: pointer;
+  }
+}
+
+/* ===========================================
+   HIGH DPI DISPLAYS (RETINA)
+   =========================================== */
+@media (-webkit-min-device-pixel-ratio: 2),
+       (min-resolution: 192dpi) {
+  /* Ensure crisp edges */
+  .ring,
+  .board-grid {
+    border-width: 0.5px;
+  }
+  
+  /* Optimize font rendering */
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* ===========================================
+   PRINT STYLES
+   =========================================== */
+@media print {
+  /* Reset for print */
+  * {
+    background: transparent !important;
+    color: black !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  
+  body {
+    font-size: 12pt;
+    line-height: 1.4;
+  }
+  
+  /* Hide interactive elements */
+  .header,
+  .theme-toggle,
+  .quote-refresh,
+  .hero-actions,
+  .project-links,
+  .contact-form {
+    display: none !important;
+  }
+  
+  .hero {
+    padding-top: 0;
+    min-height: auto;
+  }
+  
+  .section {
+    padding: var(--space-8) 0;
+    page-break-inside: avoid;
+  }
+  
+  .card {
+    break-inside: avoid;
+    margin-bottom: var(--space-4);
+  }
+  
+  .skill-card,
+  .project-card,
+  .blog-card {
+    border: 1px solid #ccc;
+  }
+}
+
+/* ===========================================
+   LANDSCAPE MOBILE ORIENTATION
+   =========================================== */
+@media (max-height: 500px) and (orientation: landscape) {
+  .hero {
+    min-height: auto;
+    padding: 2rem 0;
+  }
+  
+  .hero-content {
+    gap: 2rem;
+  }
+  
+  .mind-interface {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .central-node {
+    inset: 75px;
+  }
+  
+  .quote-widget {
+    display: none;
+  }
+  
+  .sections {
+    padding: 2rem 0;
+  }
+}

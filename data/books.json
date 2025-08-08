@@ -1,0 +1,72 @@
+[
+  {
+    "title": "The Art of War",
+    "author": "Sun Tzu",
+    "description": "Ancient Chinese military treatise on strategy, tactics, and the philosophy of warfare. Essential reading for understanding strategic thinking.",
+    "icon": "fas fa-chess",
+    "category": "Strategy"
+  },
+  {
+    "title": "Meditations",
+    "author": "Marcus Aurelius",
+    "description": "Stoic philosophy and personal reflections of a Roman Emperor. Timeless wisdom on leadership, duty, and inner strength.",
+    "icon": "fas fa-scroll",
+    "category": "Philosophy"
+  },
+  {
+    "title": "The Prince",
+    "author": "Niccolò Machiavelli",
+    "description": "Political treatise on power, leadership, and statecraft. Controversial yet insightful analysis of political strategy.",
+    "icon": "fas fa-crown",
+    "category": "Politics"
+  },
+  {
+    "title": "On War",
+    "author": "Carl von Clausewitz",
+    "description": "Comprehensive analysis of warfare theory and military strategy. The foundation of modern strategic thinking.",
+    "icon": "fas fa-sword",
+    "category": "Military"
+  },
+  {
+    "title": "48 Laws of Power",
+    "author": "Robert Greene",
+    "description": "Strategic guide to power dynamics and influence. Lessons from history's most successful leaders and tacticians.",
+    "icon": "fas fa-chess-king",
+    "category": "Strategy"
+  },
+  {
+    "title": "The Book of Five Rings",
+    "author": "Miyamoto Musashi",
+    "description": "Japanese swordsman's guide to strategy and martial arts philosophy. Principles applicable to all forms of conflict.",
+    "icon": "fas fa-yin-yang",
+    "category": "Philosophy"
+  },
+  {
+    "title": "Beyond Good and Evil",
+    "author": "Friedrich Nietzsche",
+    "description": "Philosophical critique of traditional morality and exploration of human nature and values.",
+    "icon": "fas fa-infinity",
+    "category": "Philosophy"
+  },
+  {
+    "title": "Psychology of Intelligence Analysis",
+    "author": "Richards Heuer",
+    "description": "CIA analyst's guide to improving analytical thinking and avoiding cognitive biases in intelligence work.",
+    "icon": "fas fa-brain",
+    "category": "Intelligence"
+  },
+  {
+    "title": "Bhagavad Gita",
+    "author": "Vyasa",
+    "description": "Hindu philosophical text on duty, righteousness, and the nature of reality. Dialogue between Prince Arjuna and Lord Krishna.",
+    "icon": "fas fa-om",
+    "category": "Dharma"
+  },
+  {
+    "title": "Upanishads",
+    "author": "Various Sages",
+    "description": "Ancient Indian philosophical texts exploring the nature of ultimate reality and the self. Foundation of Vedantic thought.",
+    "icon": "fas fa-lotus",
+    "category": "Vedanta"
+  }
+]

@@ -1,0 +1,101 @@
+{
+  "title": "Creative Web Developer",
+  "subtitle": "Building beautiful, functional web experiences with modern technologies",
+  "skills": [
+    {
+      "icon": "fas fa-code",
+      "title": "Frontend Development",
+      "description": "Modern web interfaces with React, Vue, and vanilla JavaScript. Creating responsive, accessible user experiences.",
+      "level": 90
+    },
+    {
+      "icon": "fab fa-js-square",
+      "title": "JavaScript & TypeScript",
+      "description": "Modern ES6+ JavaScript and TypeScript for scalable applications",
+      "level": 90
+    },
+    {
+      "icon": "fab fa-react",
+      "title": "React & Next.js",
+      "description": "Building dynamic user interfaces with React ecosystem",
+      "level": 85
+    },
+    {
+      "icon": "fas fa-server",
+      "title": "Backend Development",
+      "description": "Server-side applications with Node.js, Python, and robust database architectures.",
+      "level": 85
+    },
+    {
+      "icon": "fas fa-layer-group",
+      "title": "Full Stack Architecture",
+      "description": "End-to-end application design with strategic thinking and scalable solutions.",
+      "level": 80
+    },
+    {
+      "icon": "fas fa-database",
+      "title": "Database Design",
+      "description": "Efficient data modeling with SQL and NoSQL databases for optimal performance.",
+      "level": 85
+    },
+    {
+      "icon": "fas fa-plug",
+      "title": "API Development",
+      "description": "RESTful and GraphQL APIs with proper authentication and documentation.",
+      "level": 88
+    },
+    {
+      "icon": "fas fa-cloud",
+      "title": "DevOps & Deployment",
+      "description": "CI/CD pipelines, containerization, and cloud deployment strategies.",
+      "level": 75
+    }
+  ],
+  "projects": [
+    {
+      "title": "Strategic Portfolio Website",
+      "description": "Dual-mode personal portfolio with dynamic theme switching between web developer and cybersecurity expert personas. Built with vanilla JavaScript and modular architecture.",
+      "icon": "fas fa-user",
+      "tech": ["HTML5", "CSS3", "JavaScript", "JSON"],
+      "demo": "#",
+      "github": "https://github.com/Koustubh1234G",
+      "featured": true
+    },
+    {
+      "title": "E-Commerce Platform",
+      "description": "Full-stack e-commerce solution with payment integration, inventory management, and admin dashboard.",
+      "icon": "fas fa-shopping-cart",
+      "tech": ["React", "Node.js", "MongoDB", "Stripe"],
+      "demo": "#",
+      "github": "https://github.com/Koustubh1234G",
+      "featured": true
+    },
+    {
+      "title": "Task Management System",
+      "description": "Collaborative project management tool with real-time updates, team collaboration, and progress tracking.",
+      "icon": "fas fa-tasks",
+      "tech": ["Vue.js", "Express", "PostgreSQL", "Socket.io"],
+      "demo": "#",
+      "github": "https://github.com/Koustubh1234G",
+      "featured": false
+    },
+    {
+      "title": "Weather Analytics Dashboard",
+      "description": "Real-time weather data visualization with historical analysis and predictive insights.",
+      "icon": "fas fa-cloud-sun",
+      "tech": ["React", "D3.js", "Python", "FastAPI"],
+      "demo": "#",
+      "github": "https://github.com/Koustubh1234G",
+      "featured": false
+    },
+    {
+      "title": "Blog Content Management",
+      "description": "Custom CMS for blog management with markdown support, SEO optimization, and analytics.",
+      "icon": "fas fa-blog",
+      "tech": ["Next.js", "Prisma", "MySQL", "Vercel"],
+      "demo": "#",
+      "github": "https://github.com/Koustubh1234G",
+      "featured": false
+    }
+  ]
+}

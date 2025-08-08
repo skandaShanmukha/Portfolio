@@ -1,0 +1,94 @@
+{
+  "light": [
+    {
+      "title": "Strategic Design System",
+      "description": "Comprehensive design system built on game theory principles and behavioral psychology",
+      "tech": ["React", "TypeScript", "Storybook", "Figma", "Design Tokens"],
+      "icon": "fas fa-chess-board",
+      "demo": "https://design-system.strategicmind.dev",
+      "source": "https://github.com/strategicmind/design-system"
+    },
+    {
+      "title": "Adaptive Portfolio Platform",
+      "description": "Self-modifying portfolio that adapts to user behavior and strategic objectives",
+      "tech": ["Next.js", "AI/ML", "Analytics", "A/B Testing"],
+      "icon": "fas fa-brain",
+      "demo": "https://portfolio.strategicmind.dev",
+      "source": "https://github.com/strategicmind/adaptive-portfolio"
+    },
+    {
+      "title": "Creative Collaboration Hub",
+      "description": "Platform for strategic creative collaboration with real-time decision-making tools",
+      "tech": ["Vue.js", "WebRTC", "Node.js", "PostgreSQL"],
+      "icon": "fas fa-users",
+      "demo": "https://collab.strategicmind.dev",
+      "source": "https://github.com/strategicmind/collab-hub"
+    },
+    {
+      "title": "Strategic Analytics Dashboard",
+      "description": "Data visualization platform that reveals patterns and strategic insights",
+      "tech": ["D3.js", "Python", "FastAPI", "Redis"],
+      "icon": "fas fa-chart-network",
+      "demo": "https://analytics.strategicmind.dev",
+      "source": "https://github.com/strategicmind/analytics-dashboard"
+    },
+    {
+      "title": "Behavioral UX Framework",
+      "description": "Psychology-driven framework for creating persuasive user experiences",
+      "tech": ["React", "Behavioral Science", "A/B Testing", "Analytics"],
+      "icon": "fas fa-psychology",
+      "demo": "https://ux-framework.strategicmind.dev",
+      "source": "https://github.com/strategicmind/behavioral-ux"
+    }
+  ],
+  "dark": [
+    {
+      "title": "Tactical Network Scanner",
+      "description": "Military-grade reconnaissance tool with stealth capabilities and strategic reporting",
+      "tech": ["Python", "Nmap", "Scapy", "SQLite", "Cryptography"],
+      "icon": "fas fa-radar",
+      "demo": "#classified",
+      "source": "https://github.com/strategicmind/tactical-scanner"
+    },
+    {
+      "title": "OSINT Command Center",
+      "description": "Intelligence gathering platform with automated analysis and threat correlation",
+      "tech": ["Python", "Elasticsearch", "Kibana", "Docker", "Machine Learning"],
+      "icon": "fas fa-satellite",
+      "demo": "#classified",
+      "source": "https://github.com/strategicmind/osint-center"
+    },
+    {
+      "title": "Red Team Arsenal",
+      "description": "Comprehensive penetration testing framework with modular attack vectors",
+      "tech": ["Bash", "Python", "Metasploit", "Burp Suite", "Custom Exploits"],
+      "icon": "fas fa-crosshairs",
+      "demo": "#classified",
+      "source": "https://github.com/strategicmind/red-team-arsenal"
+    },
+    {
+      "title": "Cyber Range Simulator",
+      "description": "Training environment for tactical cybersecurity operations and war games",
+      "tech": ["Docker", "Kubernetes", "Terraform", "Ansible", "Virtual Networks"],
+      "icon": "fas fa-chess",
+      "demo": "#classified",
+      "source": "https://github.com/strategicmind/cyber-range"
+    },
+    {
+      "title": "Strategic Threat Model",
+      "description": "AI-powered threat prediction system using game theory and behavioral analysis",
+      "tech": ["Python", "TensorFlow", "Graph Theory", "Statistical Analysis"],
+      "icon": "fas fa-brain",
+      "demo": "#classified",
+      "source": "https://github.com/strategicmind/threat-model"
+    },
+    {
+      "title": "Digital Fortress Architecture",
+      "description": "Zero-trust security framework with adaptive defense mechanisms",
+      "tech": ["Go", "Kubernetes", "Istio", "Prometheus", "Custom Protocols"],
+      "icon": "fas fa-fortress",
+      "demo": "#classified",
+      "source": "https://github.com/strategicmind/digital-fortress"
+    }
+  ]
+}

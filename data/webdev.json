@@ -10,27 +10,27 @@
     },
     {
       "icon": "fab fa-js-square",
-      "title": "JavaScript & TypeScript",
-      "description": "Modern ES6+ JavaScript and TypeScript for scalable applications",
+      "title": "JavaScript",
+      "description": "Modern ES6+ JavaScript for scalable applications",
       "level": 90
     },
     {
       "icon": "fab fa-react",
       "title": "React & Next.js",
       "description": "Building dynamic user interfaces with React ecosystem",
-      "level": 85
+      "level": 70
     },
     {
       "icon": "fas fa-server",
       "title": "Backend Development",
       "description": "Server-side applications with Node.js, Python, and robust database architectures.",
-      "level": 85
+      "level": 55
     },
     {
       "icon": "fas fa-layer-group",
       "title": "Full Stack Architecture",
       "description": "End-to-end application design with strategic thinking and scalable solutions.",
-      "level": 80
+      "level": 75
     },
     {
       "icon": "fas fa-database",
@@ -48,7 +48,7 @@
       "icon": "fas fa-cloud",
       "title": "DevOps & Deployment",
       "description": "CI/CD pipelines, containerization, and cloud deployment strategies.",
-      "level": 75
+      "level": 70
     }
   ],
   "projects": [

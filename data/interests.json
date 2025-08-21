@@ -36,6 +36,16 @@
       "icon": "fas fa-shield"
     },
     {
+      "name": "Shivaji Maharaj",
+      "description": "Founder of the Maratha Empire, master of guerrilla warfare and statecraft. A symbol of Swarajya and Hindu pride.",
+      "icon": "fas fa-fort-awesome"
+    },
+    {
+      "name": "Baji Rao Peshwa I",
+      "description": "Maratha general and statesman, undefeated in battle. Expanded Maratha power across India with bold cavalry tactics.",
+      "icon": "fas fa-horse"
+    },
+    {
       "name": "Guru Gobind Singh",
       "description": "Tenth Sikh Guru, warrior-saint who established the Khalsa. Perfect blend of spirituality and martial prowess.",
       "icon": "fas fa-khanda"
@@ -49,17 +59,32 @@
       "name": "Vallabhacharya",
       "description": "Philosopher and devotional teacher who founded Pushti Marg. Advocate of pure devotion and divine grace.",
       "icon": "fas fa-lotus"
+    },
+    {
+      "name": "Napoleon Bonaparte",
+      "description": "French emperor and military genius who reshaped Europe through strategy, law, and administration.",
+      "icon": "fas fa-hat-wizard"
+    },
+    {
+      "name": "Oda Nobunaga",
+      "description": "Japanese daimyo and unifier who set the foundation for the unification of Japan. Fearless and innovative leader.",
+      "icon": "fas fa-dragon"
+    },
+    {
+      "name": "Niccolò Machiavelli",
+      "description": "Italian Renaissance political philosopher, author of 'The Prince'. Advocate of pragmatic and realist statecraft.",
+      "icon": "fas fa-scroll"
     }
   ],
   "interests": [
     {
       "title": "Strategic Warfare",
-      "description": "Study of military tactics, ancient Indian warfare, and geopolitical strategy. Understanding the art of conflict and victory.",
+      "description": "Study of military tactics, ancient Indian warfare, and geopolitical strategy. Inspired by leaders like Shivaji, Baji Rao, Napoleon, and Nobunaga.",
       "icon": "fas fa-chess-king"
     },
     {
       "title": "Indian Philosophy",
-      "description": "Deep exploration of Vedanta, dharmic traditions, and spiritual texts. Seeking truth through ancient wisdom.",
+      "description": "Deep exploration of Vedanta, dharmic traditions, and spiritual texts. Seeking truth through ancient wisdom of Shankaracharya and Vallabhacharya.",
       "icon": "fas fa-om"
     },
     {
@@ -69,7 +94,7 @@
     },
     {
       "title": "Psychology & Behavior",
-      "description": "Understanding human nature, cognitive biases, and behavioral patterns in decision-making and conflict.",
+      "description": "Understanding human nature, cognitive biases, and behavioral patterns in decision-making and conflict. A key to leadership and statecraft.",
       "icon": "fas fa-brain"
     },
     {
@@ -79,8 +104,13 @@
     },
     {
       "title": "Intelligence Analysis",
-      "description": "Methods of information gathering, analysis, and strategic intelligence in both historical and modern contexts.",
+      "description": "Methods of information gathering, analysis, and strategic intelligence in both historical and modern contexts. Inspired by Chanakya and Machiavelli.",
       "icon": "fas fa-eye"
+    },
+    {
+      "title": "Leadership Studies",
+      "description": "Learning from the successes and failures of great leaders like Shivaji, Baji Rao, Napoleon, and Guru Gobind Singh.",
+      "icon": "fas fa-users"
     }
   ],
   "hobbies": [
@@ -113,6 +143,16 @@
       "title": "Meditation & Reflection",
       "description": "Daily practice of mindfulness and self-reflection based on dharmic principles and Vedantic teachings.",
       "icon": "fas fa-meditation"
+    },
+    {
+      "title": "Martial Arts & Swordsmanship",
+      "description": "Exploring traditional combat techniques and warrior codes inspired by Rajputs, Marathas, and Samurai.",
+      "icon": "fas fa-swords"
+    },
+    {
+      "title": "Writing & Strategy Journals",
+      "description": "Documenting insights on leadership, strategy, and philosophy in a structured manner like Machiavelli and Chanakya.",
+      "icon": "fas fa-pen-fancy"
     }
   ]
 }

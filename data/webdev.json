@@ -58,7 +58,7 @@
       "icon": "fas fa-user",
       "tech": ["HTML5", "CSS3", "JavaScript", "JSON"],
       "demo": "#",
-      "github": "https://github.com/Koustubh1234G",
+      "github": "https://github.com/skandaShanmukha/Portfolio",
       "featured": true
     },
     {
@@ -67,7 +67,7 @@
       "icon": "fas fa-shopping-cart",
       "tech": ["React", "Node.js", "MongoDB", "Stripe"],
       "demo": "#",
-      "github": "https://github.com/Koustubh1234G",
+      "github": "https://github.com/skandaShanmukha",
       "featured": true
     },
     {
@@ -76,7 +76,7 @@
       "icon": "fas fa-tasks",
       "tech": ["Vue.js", "Express", "PostgreSQL", "Socket.io"],
       "demo": "#",
-      "github": "https://github.com/Koustubh1234G",
+      "github": "https://github.com/skandaShanmukha",
       "featured": false
     },
     {
@@ -85,7 +85,7 @@
       "icon": "fas fa-cloud-sun",
       "tech": ["React", "D3.js", "Python", "FastAPI"],
       "demo": "#",
-      "github": "https://github.com/Koustubh1234G",
+      "github": "https://github.com/skandaShanmukha",
       "featured": false
     },
     {
@@ -94,7 +94,7 @@
       "icon": "fas fa-blog",
       "tech": ["Next.js", "Prisma", "MySQL", "Vercel"],
       "demo": "#",
-      "github": "https://github.com/Koustubh1234G",
+      "github": "https://github.com/skandaShanmukha",
       "featured": false
     }
   ]

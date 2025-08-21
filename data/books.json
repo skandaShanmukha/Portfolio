@@ -7,13 +7,6 @@
     "category": "Strategy"
   },
   {
-    "title": "Meditations",
-    "author": "Marcus Aurelius",
-    "description": "Stoic philosophy and personal reflections of a Roman Emperor. Timeless wisdom on leadership, duty, and inner strength.",
-    "icon": "fas fa-scroll",
-    "category": "Philosophy"
-  },
-  {
     "title": "The Prince",
     "author": "Niccolò Machiavelli",
     "description": "Political treatise on power, leadership, and statecraft. Controversial yet insightful analysis of political strategy.",
@@ -21,39 +14,39 @@
     "category": "Politics"
   },
   {
-    "title": "On War",
-    "author": "Carl von Clausewitz",
-    "description": "Comprehensive analysis of warfare theory and military strategy. The foundation of modern strategic thinking.",
-    "icon": "fas fa-sword",
-    "category": "Military"
+    "title": "Never Split the Difference",
+    "author": "Chris Voss",
+    "description": "Former FBI hostage negotiator shares negotiation techniques that apply to business and everyday life.",
+    "icon": "fas fa-handshake",
+    "category": "Negotiation"
   },
   {
-    "title": "48 Laws of Power",
-    "author": "Robert Greene",
-    "description": "Strategic guide to power dynamics and influence. Lessons from history's most successful leaders and tacticians.",
-    "icon": "fas fa-chess-king",
+    "title": "The 36 Strategies",
+    "author": "Anonymous",
+    "description": "Ancient Chinese collection of stratagems for politics, war, and civil interaction.",
+    "icon": "fas fa-dragon",
     "category": "Strategy"
   },
   {
-    "title": "The Book of Five Rings",
-    "author": "Miyamoto Musashi",
-    "description": "Japanese swordsman's guide to strategy and martial arts philosophy. Principles applicable to all forms of conflict.",
-    "icon": "fas fa-yin-yang",
-    "category": "Philosophy"
+    "title": "Hindu Rashtra Darshan",
+    "author": "Vinayak Damodar Savarkar",
+    "description": "Collection of speeches and thoughts by Savarkar on Hindutva and the idea of a Hindu nation.",
+    "icon": "fas fa-landmark",
+    "category": "Politics"
   },
   {
-    "title": "Beyond Good and Evil",
-    "author": "Friedrich Nietzsche",
-    "description": "Philosophical critique of traditional morality and exploration of human nature and values.",
-    "icon": "fas fa-infinity",
-    "category": "Philosophy"
+    "title": "The 1857 War of Independence",
+    "author": "Vinayak Damodar Savarkar",
+    "description": "Nationalist reinterpretation of the 1857 uprising as India’s first war of independence.",
+    "icon": "fas fa-flag",
+    "category": "History"
   },
   {
-    "title": "Psychology of Intelligence Analysis",
-    "author": "Richards Heuer",
-    "description": "CIA analyst's guide to improving analytical thinking and avoiding cognitive biases in intelligence work.",
-    "icon": "fas fa-brain",
-    "category": "Intelligence"
+    "title": "Why I Killed Gandhi",
+    "author": "Nathuram Godse",
+    "description": "Godse’s defense statement explaining his motivations behind assassinating Mahatma Gandhi.",
+    "icon": "fas fa-gavel",
+    "category": "Politics"
   },
   {
     "title": "Bhagavad Gita",
@@ -68,5 +61,19 @@
     "description": "Ancient Indian philosophical texts exploring the nature of ultimate reality and the self. Foundation of Vedantic thought.",
     "icon": "fas fa-lotus",
     "category": "Vedanta"
+  },
+  {
+    "title": "Tao Te Ching",
+    "author": "Laozi",
+    "description": "Ancient Chinese classic text of Taoist philosophy, exploring harmony, simplicity, and the way of nature.",
+    "icon": "fas fa-leaf",
+    "category": "Philosophy"
+  },
+  {
+    "title": "Water Cures, Drugs Kill",
+    "author": "F. Batmanghelidj",
+    "description": "Health guide emphasizing the healing power of proper hydration over pharmaceutical drugs.",
+    "icon": "fas fa-tint",
+    "category": "Health"
   }
 ]

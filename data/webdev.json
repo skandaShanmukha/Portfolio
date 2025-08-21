@@ -1,100 +1,133 @@
 {
-  "title": "Creative Web Developer",
-  "subtitle": "Building beautiful, functional web experiences with modern technologies",
+  "title": "Full Stack Developer & Digital Creator",
+  "subtitle": "Building meaningful web experiences with modern technologies and cultural awareness",
   "skills": [
     {
       "icon": "fas fa-code",
-      "title": "Frontend Development",
-      "description": "Modern web interfaces with React, Vue, and vanilla JavaScript. Creating responsive, accessible user experiences.",
+      "title": "HTML/CSS Development",
+      "description": "Creating responsive and accessible web interfaces with modern HTML5 and CSS3",
       "level": 90
     },
     {
       "icon": "fab fa-js-square",
       "title": "JavaScript",
-      "description": "Modern ES6+ JavaScript for scalable applications",
-      "level": 90
+      "description": "Building interactive web applications with vanilla JavaScript and modern ES6+ features",
+      "level": 85
     },
     {
       "icon": "fab fa-react",
-      "title": "React & Next.js",
-      "description": "Building dynamic user interfaces with React ecosystem",
-      "level": 70
-    },
-    {
-      "icon": "fas fa-server",
-      "title": "Backend Development",
-      "description": "Server-side applications with Node.js, Python, and robust database architectures.",
-      "level": 55
-    },
-    {
-      "icon": "fas fa-layer-group",
-      "title": "Full Stack Architecture",
-      "description": "End-to-end application design with strategic thinking and scalable solutions.",
+      "title": "React JS",
+      "description": "Developing dynamic user interfaces with React ecosystem including state management",
       "level": 75
     },
     {
       "icon": "fas fa-database",
-      "title": "Database Design",
-      "description": "Efficient data modeling with SQL and NoSQL databases for optimal performance.",
+      "title": "Database Management",
+      "description": "Working with both SQL and NoSQL databases for various application needs",
+      "level": 70
+    },
+    {
+      "icon": "fab fa-node-js",
+      "title": "Node.js",
+      "description": "Building server-side applications and APIs with Node.js runtime environment",
+      "level": 65
+    },
+    {
+      "icon": "fas fa-robot",
+      "title": "Workflow Automation",
+      "description": "Building automated workflows and integrations using n8n, connecting various apps and services",
+      "level": 75
+    },
+    {
+      "icon": "fas fa-terminal",
+      "title": "C/C++ Programming",
+      "description": "Systems programming and understanding fundamental computer science concepts",
+      "level": 70
+    },
+    {
+      "icon": "fas fa-mobile-alt",
+      "title": "Responsive Design",
+      "description": "Creating mobile-first, responsive layouts that work across all devices",
       "level": 85
     },
     {
-      "icon": "fas fa-plug",
-      "title": "API Development",
-      "description": "RESTful and GraphQL APIs with proper authentication and documentation.",
-      "level": 88
-    },
-    {
-      "icon": "fas fa-cloud",
-      "title": "DevOps & Deployment",
-      "description": "CI/CD pipelines, containerization, and cloud deployment strategies.",
-      "level": 70
+      "icon": "fas fa-tools",
+      "title": "Tools & Workflow",
+      "description": "Git version control, Linux environment, and modern development workflows",
+      "level": 80
     }
   ],
   "projects": [
     {
-      "title": "Strategic Portfolio Website",
-      "description": "Dual-mode personal portfolio with dynamic theme switching between web developer and cybersecurity expert personas. Built with vanilla JavaScript and modular architecture.",
+      "title": "GitaApp - Bhagavad Gita Study Platform",
+      "description": "React-based application with translations and commentaries from various acharyas, featuring custom selection options",
+      "icon": "fas fa-book",
+      "tech": ["React", "JavaScript", "CSS", "API Integration"],
+      "demo": "#",
+      "github": "https://github.com/skandaShanmukha/GitaApp",
+      "featured": true
+    },
+    {
+      "title": "Mughal Empire Historical Resource",
+      "description": "Educational resource examining historical perspectives on the Mughal Empire in Indian history",
+      "icon": "fas fa-landmark",
+      "tech": ["HTML", "CSS"],
+      "demo": "#",
+      "github": "https://github.com/skandaShanmukha/mughal-empire-truth-handout",
+      "featured": false
+    },
+    {
+      "title": "Personal Portfolio Website",
+      "description": "Custom portfolio website showcasing projects and skills with clean, responsive design",
       "icon": "fas fa-user",
-      "tech": ["HTML5", "CSS3", "JavaScript", "JSON"],
+      "tech": ["HTML5", "CSS3", "JavaScript"],
       "demo": "#",
       "github": "https://github.com/skandaShanmukha/Portfolio",
       "featured": true
     },
     {
-      "title": "E-Commerce Platform",
-      "description": "Full-stack e-commerce solution with payment integration, inventory management, and admin dashboard.",
-      "icon": "fas fa-shopping-cart",
-      "tech": ["React", "Node.js", "MongoDB", "Stripe"],
+      "title": "Soul Contemplator",
+      "description": "Web application that generates beautiful, personalized love poems with philosophical depth",
+      "icon": "fas fa-heart",
+      "tech": ["HTML", "JavaScript", "CSS"],
       "demo": "#",
-      "github": "https://github.com/skandaShanmukha",
-      "featured": true
-    },
-    {
-      "title": "Task Management System",
-      "description": "Collaborative project management tool with real-time updates, team collaboration, and progress tracking.",
-      "icon": "fas fa-tasks",
-      "tech": ["Vue.js", "Express", "PostgreSQL", "Socket.io"],
-      "demo": "#",
-      "github": "https://github.com/skandaShanmukha",
+      "github": "https://github.com/skandaShanmukha/soul-contemplator",
       "featured": false
     },
     {
-      "title": "Weather Analytics Dashboard",
-      "description": "Real-time weather data visualization with historical analysis and predictive insights.",
-      "icon": "fas fa-cloud-sun",
-      "tech": ["React", "D3.js", "Python", "FastAPI"],
+      "title": "Vichaar - Inspirational Quotes Collection",
+      "description": "Collection of inspirational and philosophical quotes from various sources and authors",
+      "icon": "fas fa-quote-right",
+      "tech": ["JavaScript", "HTML", "CSS"],
       "demo": "#",
-      "github": "https://github.com/skandaShanmukha",
+      "github": "https://github.com/skandaShanmukha/Vichaar",
       "featured": false
     },
     {
-      "title": "Blog Content Management",
-      "description": "Custom CMS for blog management with markdown support, SEO optimization, and analytics.",
-      "icon": "fas fa-blog",
-      "tech": ["Next.js", "Prisma", "MySQL", "Vercel"],
+      "title": "Markdown Previewer",
+      "description": "Simple application to preview markdown in realtime as you type",
+      "icon": "fas fa-markdown",
+      "tech": ["JavaScript", "HTML", "CSS"],
       "demo": "#",
-      "github": "https://github.com/skandaShanmukha",
+      "github": "https://github.com/skandaShanmukha/MarkdownPreviewer",
+      "featured": false
+    },
+    {
+      "title": "PushtiKirtan App",
+      "description": "Application for devotional music and kirtans (details limited from GitHub)",
+      "icon": "fas fa-music",
+      "tech": ["JavaScript", "HTML", "CSS"],
+      "demo": "#",
+      "github": "https://github.com/skandaShanmukha/PushtiKirtan",
+      "featured": false
+    },
+    {
+      "title": "Basic Projects Collection",
+      "description": "Collection of basic Linux, C, and C++ projects to understand fundamentals",
+      "icon": "fas fa-laptop-code",
+      "tech": ["C", "C++", "Linux"],
+      "demo": "#",
+      "github": "https://github.com/skandaShanmukha/BasicProjects",
       "featured": false
     }
   ]
